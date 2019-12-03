@@ -67,24 +67,7 @@ var kaomojis = [...]string{
 }
 
 var randomSentences = [...]string{
-	"Proudly sponsored by Kirotuso!",
-	"The brace is on fire!",
-	"deverupa ga daisuki!",
-	"It works!!!!",
-	"Feelin' groovy!",
-	"sudo rm -rf /",
-	"Hi! I'm Flowey! Flowey the flower!",
-	"Ripple devs are actually cats",
-	"Support Howl's fund for buying a power supply for his SSD!",
-	"Superman dies",
-	"PP when?",
-	"RWC hype",
-	"I'd just like to interject for a moment.",
-	"Running on an apple pie!",
-	":thinking:",
-	"The total entropy of an isolated system can only increase over time",
-	"Where are my testicles, Summer?",
-	"Why don't you ask the smartest people in the universe? Oh yeah, you can't. They blew up.",
+	"Welcome to Kawata!",
 }
 
 func surpriseMe() string {

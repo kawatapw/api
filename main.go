@@ -35,7 +35,7 @@ func main() {
 		fmt.Println(err)
 	}
 
-	fmt.Print("Ripple API")
+	fmt.Print("Kawata API")
 	if Version != "" {
 		fmt.Print("; git commit hash: ", Version)
 	}
