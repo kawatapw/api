@@ -10,7 +10,6 @@ import (
 	"github.com/kawatapw/api/app"
 	"github.com/kawatapw/api/beatmapget"
 	"github.com/kawatapw/api/common"
-	"zxq.co/ripple/schiavolib"
 	// Golint pls dont break balls
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jmoiron/sqlx"
@@ -47,8 +46,6 @@ func main() {
 		return
 	}
 
-	schiavo.Prefix = "Ripple API"
-
 	if !strings.Contains(conf.DSN, "parseTime=true") {
 		c := "?"
 		if strings.Contains(conf.DSN, "?") {
@@ -59,7 +56,6 @@ func main() {
 
 	db, err = sqlx.Open(conf.DatabaseType, conf.DSN)
 	if err != nil {
-		schiavo.Bunker.Send(err.Error())
 		log.Fatalln(err)
 	}
 

@@ -200,14 +200,6 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:377362c606df99ce3d3573f150824e8a6b3c9a7be68f42711723d332419481c7"
-  name = "zxq.co/ripple/schiavolib"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "9cdc674dad0700ec79618de4ab558db6ad1de372"
-
-[[projects]]
-  branch = "master"
   digest = "1:e288ff861af68ced99a09e58b662cd5932bb4734d56e293f206b84fdd52baa4a"
   name = "zxq.co/ripple/semantic-icons-ugc"
   packages = ["."]
@@ -241,7 +233,6 @@
     "gopkg.in/thehowl/go-osuapi.v1",
     "zxq.co/ripple/agplwarning",
     "zxq.co/ripple/ocl",
-    "zxq.co/ripple/schiavolib",
     "zxq.co/ripple/semantic-icons-ugc",
     "zxq.co/x/getrank",
   ]
