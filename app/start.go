@@ -84,6 +84,14 @@ func Start(conf common.Conf, dbO *sqlx.DB) *fhr.Router {
 	// v1 API
 	{
 		r.POSTMethod("/api/v1/tokens/self/delete", v1.TokenSelfDeletePOST)
+		
+		// clans
+		r.Method("/api/v1/clans", v1.ClansGET)
+		r.Method("/api/v1/clans/members", v1.ClanMembersGET)
+		r.Method("/api/v1/clans/stats", v1.TotalClanStatsGET)
+		r.Method("/api/v1/clans/stats/all", v1.AllClanStatsGET)
+		r.Method("/api/v1/clans/getinvite", v1.ClanInviteGET)
+		r.Method("/api/v1/clans/isclan", v1.IsInClanGET)
 
 		// Auth-free API endpoints (public data)
 		r.Method("/api/v1/ping", v1.PingGET)
