@@ -1,7 +1,7 @@
 package v1
 
 import (
-	"github.com/kawatapw/api/common"
+	"github.com/kawatapw/rippleapi/common"
 )
 
 type mostPlayedBeatmap struct {
