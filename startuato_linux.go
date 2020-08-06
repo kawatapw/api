@@ -3,7 +3,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"net"
 	"time"
@@ -11,7 +10,6 @@ import (
 	"github.com/rcrowley/goagain"
 	"github.com/valyala/fasthttp"
 	"github.com/kawatapw/api/common"
-	"zxq.co/ripple/schiavolib"
 )
 
 func startuato(hn fasthttp.RequestHandler) {
@@ -27,23 +25,18 @@ func startuato(hn fasthttp.RequestHandler) {
 			l, err = net.Listen("tcp", conf.ListenTo)
 		}
 		if nil != err {
-			schiavo.Bunker.Send(err.Error())
 			log.Fatalln(err)
 		}
-
-		schiavo.Bunker.Send(fmt.Sprint("LISTENINGU STARTUATO ON ", l.Addr()))
 
 		// Accept connections in a new goroutine.
 		go fasthttp.Serve(l, hn)
 	} else {
 
 		// Resume accepting connections in a new goroutine.
-		schiavo.Bunker.Send(fmt.Sprint("LISTENINGU RESUMINGU ON ", l.Addr()))
 		go fasthttp.Serve(l, hn)
 
 		// Kill the parent, now that the child has started successfully.
 		if err := goagain.Kill(); nil != err {
-			schiavo.Bunker.Send(err.Error())
 			log.Fatalln(err)
 		}
 
@@ -51,7 +44,6 @@ func startuato(hn fasthttp.RequestHandler) {
 
 	// Block the main goroutine awaiting signals.
 	if _, err := goagain.Wait(l); nil != err {
-		schiavo.Bunker.Send(err.Error())
 		log.Fatalln(err)
 	}
 
@@ -60,11 +52,9 @@ func startuato(hn fasthttp.RequestHandler) {
 	//
 	// In this case, we'll simply stop listening and wait one second.
 	if err := l.Close(); nil != err {
-		schiavo.Bunker.Send(err.Error())
 		log.Fatalln(err)
 	}
 	if err := db.Close(); err != nil {
-		schiavo.Bunker.Send(err.Error())
 		log.Fatalln(err)
 	}
 	time.Sleep(time.Second * 1)

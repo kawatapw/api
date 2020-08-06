@@ -79,8 +79,6 @@ zxq.co/ripple/agplwarning v0.0.0-20180204104638-d3a3d0ee424f h1:3mu+sakmZx4sLNo9
 zxq.co/ripple/agplwarning v0.0.0-20180204104638-d3a3d0ee424f/go.mod h1:sshTr/Z/WGWO+mj1Q/cCwFXwqa1FlWVGpYe1db98+G0=
 zxq.co/ripple/ocl v0.0.0-20160518155525-b499c4fc6bcd h1:jaHPeT0hACc4JyYvvsfcAaVzEt2aa1BNIukQIchWbXU=
 zxq.co/ripple/ocl v0.0.0-20160518155525-b499c4fc6bcd/go.mod h1:YagunUAfVRcfr3+9WSusjzwj7qno8fDwan+my3WrGM0=
-zxq.co/ripple/schiavolib v0.0.0-20161109210250-9cdc674dad07 h1:fQIulgq6BDqgUiRGn1UU29Upms+eAmZxIPuF4KZFNAU=
-zxq.co/ripple/schiavolib v0.0.0-20161109210250-9cdc674dad07/go.mod h1:W6Gj7lSJNvs8oFN4bvrzoi+vcjDAEVyMfzguWzUYaok=
 zxq.co/ripple/semantic-icons-ugc v0.0.0-20161123190331-82d4c266de98 h1:rAyPOt8C/6Thl7vCFzdmxrIp7hJlFefRXtTlXd7Uef8=
 zxq.co/ripple/semantic-icons-ugc v0.0.0-20161123190331-82d4c266de98/go.mod h1:S0iTdeNHcAoRTLk1CC56FzpKNJ3mPhf3BIlz8OJz6SI=
 zxq.co/x/getrank v0.0.0-20170418183109-97d2823cf77d h1:VaNJqleeYJFEVgIoPN01HmTDCcjHCypxmGioqmcV7+s=

@@ -30,7 +30,6 @@ require (
 	gopkg.in/thehowl/go-osuapi.v1 v1.0.0-20161017202541-77ef7867f23c
 	zxq.co/ripple/agplwarning v0.0.0-20180204104638-d3a3d0ee424f
 	zxq.co/ripple/ocl v0.0.0-20160518155525-b499c4fc6bcd
-	zxq.co/ripple/schiavolib v0.0.0-20161109210250-9cdc674dad07
 	zxq.co/ripple/semantic-icons-ugc v0.0.0-20161123190331-82d4c266de98
 	zxq.co/x/getrank v0.0.0-20170418183109-97d2823cf77d
 )
