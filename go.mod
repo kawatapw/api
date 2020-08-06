@@ -1,4 +1,4 @@
-module zxq.co/ripple/rippleapi
+module github.com/kawatapw/api
 
 go 1.14
 
@@ -10,6 +10,7 @@ require (
 	github.com/go-sql-driver/mysql v1.3.1-0.20161224121019-2e00b5cd7039
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/jmoiron/sqlx v0.0.0-20161209024531-cac998c4f095
+	github.com/kawatapw/playstyle v0.0.0-20191215122534-fa857769401a // indirect
 	github.com/klauspost/compress v1.2.2-0.20170114130832-461e8fd8397a // indirect
 	github.com/klauspost/cpuid v0.0.0-20160302075316-09cded8978dc // indirect
 	github.com/klauspost/crc32 v0.0.0-20161016154125-cb6bfca970f6 // indirect
