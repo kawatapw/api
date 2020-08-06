@@ -18,8 +18,6 @@ github.com/hpcloud/tail v1.0.0 h1:nfCOvKYfkgYP8hkirhJocXT2+zOD8yUNjXaWfTlyFKI=
 github.com/hpcloud/tail v1.0.0/go.mod h1:ab1qPbhIpdTxEkNHXyeSf5vhxWSCs/tWer42PpOxQnU=
 github.com/jmoiron/sqlx v0.0.0-20161209024531-cac998c4f095 h1:6uwZHp3lyVH2mZxH/NLFbfBmbra2a2VDMSN2sp5NgGc=
 github.com/jmoiron/sqlx v0.0.0-20161209024531-cac998c4f095/go.mod h1:IiEW3SEiiErVyFdH8NTuWjSifiEQKUoyK3LNqr2kCHU=
-github.com/kawatapw/api v0.0.0-20200806105113-97a59a052872 h1:9/7Q41SI4qA9wMYP0mFjydQIn4+qaHUvVPEe/D276YI=
-github.com/kawatapw/api v0.0.0-20200806105113-97a59a052872/go.mod h1:zy2546jPtuF4rA5Dt4nyfCw9+eaxmpJmiDTWK3Mk3tA=
 github.com/kawatapw/playstyle v0.0.0-20191215122534-fa857769401a h1:q4fnX9vNo6IMwEUh5Ef57MvlB6eEyhrT2x+8MpoWNJU=
 github.com/kawatapw/playstyle v0.0.0-20191215122534-fa857769401a/go.mod h1:ybkbT+RVxC4HsojYugKYB75xSETO5BUJHu1vfiwuoyw=
 github.com/klauspost/compress v1.2.2-0.20170114130832-461e8fd8397a h1:ecqXXp3gkAsll6ttp8n5lu41qpvA4rA3n34Hxmh3q/k=
@@ -81,8 +79,6 @@ zxq.co/ripple/agplwarning v0.0.0-20180204104638-d3a3d0ee424f h1:3mu+sakmZx4sLNo9
 zxq.co/ripple/agplwarning v0.0.0-20180204104638-d3a3d0ee424f/go.mod h1:sshTr/Z/WGWO+mj1Q/cCwFXwqa1FlWVGpYe1db98+G0=
 zxq.co/ripple/ocl v0.0.0-20160518155525-b499c4fc6bcd h1:jaHPeT0hACc4JyYvvsfcAaVzEt2aa1BNIukQIchWbXU=
 zxq.co/ripple/ocl v0.0.0-20160518155525-b499c4fc6bcd/go.mod h1:YagunUAfVRcfr3+9WSusjzwj7qno8fDwan+my3WrGM0=
-zxq.co/ripple/playstyle v0.0.0-20200414151848-19a867db35bf h1:237RS2yap+QtOcnfJZ2x79Wq40X8vWAfN4wQTVfAgAE=
-zxq.co/ripple/playstyle v0.0.0-20200414151848-19a867db35bf/go.mod h1:ByMeVpw6pHJ7JLr8m/ANnb5uGD5qcO8qwkRdU9vCNrs=
 zxq.co/ripple/schiavolib v0.0.0-20161109210250-9cdc674dad07 h1:fQIulgq6BDqgUiRGn1UU29Upms+eAmZxIPuF4KZFNAU=
 zxq.co/ripple/schiavolib v0.0.0-20161109210250-9cdc674dad07/go.mod h1:W6Gj7lSJNvs8oFN4bvrzoi+vcjDAEVyMfzguWzUYaok=
 zxq.co/ripple/semantic-icons-ugc v0.0.0-20161123190331-82d4c266de98 h1:rAyPOt8C/6Thl7vCFzdmxrIp7hJlFefRXtTlXd7Uef8=
