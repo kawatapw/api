@@ -11,7 +11,7 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"zxq.co/ripple/rippleapi/common"
+	"github.com/ripple-shit/api/common"
 	"zxq.co/ripple/schiavolib"
 )
 

@@ -7,9 +7,9 @@ import (
 	"syscall"
 
 	"zxq.co/ripple/agplwarning"
-	"zxq.co/ripple/rippleapi/app"
-	"zxq.co/ripple/rippleapi/beatmapget"
-	"zxq.co/ripple/rippleapi/common"
+	"github.com/ripple-shit/api/app"
+	"github.com/ripple-shit/api/beatmapget"
+	"github.com/ripple-shit/api/common"
 	schiavo "zxq.co/ripple/schiavolib"
 
 	// Golint pls dont break balls

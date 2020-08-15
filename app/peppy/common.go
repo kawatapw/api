@@ -7,7 +7,7 @@ import (
 
 	"github.com/jmoiron/sqlx"
 	"github.com/valyala/fasthttp"
-	"zxq.co/ripple/rippleapi/common"
+	"github.com/ripple-shit/api/common"
 )
 
 var modes = []string{"std", "taiko", "ctb", "mania"}

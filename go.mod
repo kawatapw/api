@@ -1,4 +1,4 @@
-module zxq.co/ripple/rippleapi
+module github.com/ripple-shit/api
 
 go 1.14
 
