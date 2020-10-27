@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ripple-shit/api/common"
-	"github.com/ripple-shit/api/limit"
+	"github.com/kawata-wip/api/common"
+	"github.com/kawata-wip/api/limit"
 )
 
 type rankRequestsStatusResponse struct {

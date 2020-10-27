@@ -13,7 +13,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ripple-shit/api/common"
+	"github.com/kawata-wip/api/common"
 )
 
 // MetaRestartGET restarts the API with Zero Downtime™.

@@ -3,7 +3,7 @@ package v1
 import (
 	"database/sql"
 
-	"github.com/ripple-shit/api/common"
+	"github.com/kawata-wip/api/common"
 )
 
 type difficulty struct {

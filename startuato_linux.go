@@ -10,7 +10,7 @@ import (
 
 	"github.com/rcrowley/goagain"
 	"github.com/valyala/fasthttp"
-	"github.com/ripple-shit/api/common"
+	"github.com/kawata-wip/api/common"
 	"zxq.co/ripple/schiavolib"
 )
 

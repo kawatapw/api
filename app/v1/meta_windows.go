@@ -5,7 +5,7 @@ package v1
 import (
 	"time"
 
-	"github.com/ripple-shit/api/common"
+	"github.com/kawata-wip/api/common"
 )
 
 // MetaRestartGET restarts the API with Zero Downtime™.

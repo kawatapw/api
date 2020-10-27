@@ -1,4 +1,4 @@
-module github.com/ripple-shit/api
+module github.com/kawata-wip/api
 
 go 1.14
 

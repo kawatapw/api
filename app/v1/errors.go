@@ -3,7 +3,7 @@ package v1
 import (
 	"strings"
 
-	"github.com/ripple-shit/api/common"
+	"github.com/kawata-wip/api/common"
 )
 
 // Boilerplate errors

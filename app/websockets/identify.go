@@ -8,7 +8,7 @@ import (
 
 	"database/sql"
 
-	"github.com/ripple-shit/api/common"
+	"github.com/kawata-wip/api/common"
 )
 
 type websocketUser struct {

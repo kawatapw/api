@@ -11,7 +11,7 @@ import (
 	"github.com/jmoiron/sqlx"
 	redis "gopkg.in/redis.v5"
 	"zxq.co/ripple/ocl"
-	"github.com/ripple-shit/api/common"
+	"github.com/kawata-wip/api/common"
 )
 
 type userData struct {
