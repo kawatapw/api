@@ -291,7 +291,7 @@ func UserSelfScoreboardPOST(md common.MethodData) common.CodeMessager {
 		`UPDATE users_preferences, users AS u
 		SET `+q.Fields()+`
 		WHERE users_preferences.id = ? AND u.id = ?
-		LIMIT 1`,
+		`,
 		append(q.Parameters, md.ID(), md.ID())...,
 	)
 	if err != nil {
