@@ -1,4 +1,4 @@
-module github.com/kawata-wip/api
+module github.com/kawatapw/api
 
 go 1.14
 

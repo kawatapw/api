@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	"github.com/valyala/fasthttp"
-	"github.com/kawata-wip/api/common"
+	"github.com/kawatapw/api/common"
 )
 
 type response404 struct {

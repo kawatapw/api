@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kawata-wip/api/common"
+	"github.com/kawatapw/api/common"
 	"github.com/jmoiron/sqlx"
 	"gopkg.in/thehowl/go-osuapi.v1"
 )

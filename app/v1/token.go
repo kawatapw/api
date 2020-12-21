@@ -11,7 +11,7 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/kawata-wip/api/common"
+	"github.com/kawatapw/api/common"
 	"zxq.co/ripple/schiavolib"
 )
 

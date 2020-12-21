@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kawata-wip/api/common"
+	"github.com/kawatapw/api/common"
 )
 
 type rapLogData struct {

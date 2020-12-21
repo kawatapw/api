@@ -7,9 +7,9 @@ import (
 	"syscall"
 
 	"zxq.co/ripple/agplwarning"
-	"github.com/kawata-wip/api/app"
-	"github.com/kawata-wip/api/beatmapget"
-	"github.com/kawata-wip/api/common"
+	"github.com/kawatapw/api/app"
+	"github.com/kawatapw/api/beatmapget"
+	"github.com/kawatapw/api/common"
 	schiavo "zxq.co/ripple/schiavolib"
 
 	// Golint pls dont break balls

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kawata-wip/api/common"
+	"github.com/kawatapw/api/common"
 )
 
 // This basically proxies requests from Medium's API and is used on Ripple's

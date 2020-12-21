@@ -9,11 +9,11 @@ import (
 	"github.com/getsentry/raven-go"
 	"github.com/jmoiron/sqlx"
 	"gopkg.in/redis.v5"
-	"github.com/kawata-wip/api/app/internals"
-	"github.com/kawata-wip/api/app/peppy"
-	v1 "github.com/kawata-wip/api/app/v1"
-	"github.com/kawata-wip/api/app/websockets"
-	"github.com/kawata-wip/api/common"
+	"github.com/kawatapw/api/app/internals"
+	"github.com/kawatapw/api/app/peppy"
+	v1 "github.com/kawatapw/api/app/v1"
+	"github.com/kawatapw/api/app/websockets"
+	"github.com/kawatapw/api/common"
 )
 
 var (

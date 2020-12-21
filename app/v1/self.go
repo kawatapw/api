@@ -5,7 +5,7 @@ import (
 
 	emoji "github.com/tmdvs/Go-Emoji-Utils"
 	"zxq.co/ripple/playstyle"
-	"github.com/kawata-wip/api/common"
+	"github.com/kawatapw/api/common"
 	semanticiconsugc "zxq.co/ripple/semantic-icons-ugc"
 )
 

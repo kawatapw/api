@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/kawata-wip/api/common"
-	"github.com/kawata-wip/api/limit"
+	"github.com/kawatapw/api/common"
+	"github.com/kawatapw/api/limit"
 )
 
 type rankRequestsStatusResponse struct {

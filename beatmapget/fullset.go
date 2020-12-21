@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/kawata-wip/api/common"
+	"github.com/kawatapw/api/common"
 	"gopkg.in/thehowl/go-osuapi.v1"
 )
 

@@ -1,7 +1,7 @@
 package v1
 
 import (
-	"github.com/kawata-wip/api/common"
+	"github.com/kawatapw/api/common"
 )
 
 type mostPlayedBeatmap struct {

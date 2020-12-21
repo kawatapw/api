@@ -13,7 +13,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/kawata-wip/api/common"
+	"github.com/kawatapw/api/common"
 )
 
 // MetaRestartGET restarts the API with Zero Downtime™.

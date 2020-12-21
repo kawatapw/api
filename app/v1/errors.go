@@ -3,7 +3,7 @@ package v1
 import (
 	"strings"
 
-	"github.com/kawata-wip/api/common"
+	"github.com/kawatapw/api/common"
 )
 
 // Boilerplate errors

@@ -3,7 +3,7 @@ package v1
 import (
 	"database/sql"
 
-	"github.com/kawata-wip/api/common"
+	"github.com/kawatapw/api/common"
 )
 
 type friendData struct {
