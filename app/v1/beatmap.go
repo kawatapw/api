@@ -27,6 +27,7 @@ type beatmap struct {
 	Ranked             int                  `json:"ranked"`
 	RankedStatusFrozen int                  `json:"ranked_status_frozen"`
 	LatestUpdate       common.UnixTimestamp `json:"latest_update"`
+	RankedOnKawata     int                  `json:"ranked_on_kawata"`
 }
 
 type beatmapResponse struct {
@@ -217,6 +218,35 @@ func BeatmapRankedFrozenFullGET(md common.MethodData) common.CodeMessager {
 	for rows.Next() {
 		var b beatmapReduced
 		err = rows.Scan(&b.BeatmapID, &b.BeatmapsetID, &b.BeatmapMD5, &b.Ranked, &b.RankedStatusFrozen)
+		if err != nil {
+			md.Err(err)
+			continue
+		}
+		r.Beatmaps = append(r.Beatmaps, b)
+	}
+	r.Code = 200
+	return r
+}
+
+type RankedOnKawataFullResponse struct {
+	common.ResponseBase
+	Beatmaps []beatmap `json:"beatmaps"`
+}
+
+func RankedOnKawataGET(md common.MethodData) common.CodeMessager {
+	rows, err := md.DB.Query(`
+	SELECT beatmapset_id, song_name, beatmap_md5, ranked, ranked_on_kawata
+	FROM beatmaps
+	WHERE ranked_on_kawata = '1'
+	`)
+	if err != nil {
+		md.Err(err)
+		return Err500
+	}
+	var r RankedOnKawataFullResponse
+	for rows.Next() {
+		var b beatmap
+		err = rows.Scan(&b.BeatmapsetID, &b.SongName, &b.BeatmapMD5, &b.Ranked, &b.RankedOnKawata)
 		if err != nil {
 			md.Err(err)
 			continue
