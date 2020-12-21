@@ -6,7 +6,7 @@ import (
 	"strings"
 	"syscall"
 
-	"zxq.co/ripple/agplwarning"
+	"github.com/kawatapw/agplwarning"
 	"github.com/kawatapw/api/app"
 	"github.com/kawatapw/api/beatmapget"
 	"github.com/kawatapw/api/common"

@@ -27,7 +27,7 @@ require (
 	github.com/valyala/fasthttp v0.0.0-20170118172047-2ada93a6dff4
 	gopkg.in/redis.v5 v5.2.1
 	gopkg.in/thehowl/go-osuapi.v1 v1.0.0-20161017202541-77ef7867f23c
-	zxq.co/ripple/agplwarning v0.0.0-20180204104638-d3a3d0ee424f
+	github.com/kawatapw/agplwarning v0.0.0-20180204104638-d3a3d0ee424f
 	zxq.co/ripple/ocl v0.0.0-20160518155525-b499c4fc6bcd
 	zxq.co/ripple/playstyle v0.0.0-20200414151848-19a867db35bf
 	zxq.co/ripple/schiavolib v0.0.0-20161109210250-9cdc674dad07
