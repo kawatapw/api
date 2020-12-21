@@ -32,5 +32,5 @@ require (
 	zxq.co/ripple/playstyle v0.0.0-20200414151848-19a867db35bf
 	zxq.co/ripple/schiavolib v0.0.0-20161109210250-9cdc674dad07
 	zxq.co/ripple/semantic-icons-ugc v0.0.0-20161123190331-82d4c266de98
-	zxq.co/x/getrank v0.0.0-20170418183109-97d2823cf77d
+	github.com/kawatapw/getrank v0.0.0-20170418183109-97d2823cf77d
 )

@@ -9,7 +9,7 @@ import (
 
 	"gopkg.in/thehowl/go-osuapi.v1"
 	"github.com/kawatapw/api/common"
-	"zxq.co/x/getrank"
+	"github.com/kawatapw/getrank"
 )
 
 // Score is a score done on Ripple.
